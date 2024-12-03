@@ -1,36 +1,41 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+# Catch the Ball Game
 
-First, run the development server:
+A simple yet fun game inspired by a childhood memory. The game involves a ball moving randomly inside a rectangle, and the player needs to catch it. Each level increases the speed of the ball, making it more challenging. Scores are tracked and stored using a simple authentication system with Supabase.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Game Mechanics**:  
+  - A rectangle where a ball moves randomly.  
+  - Players catch the ball to progress through levels.  
+  - Ball speed increases as levels progress.  
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Authentication System**:  
+  - Players can sign up or log in to track their scores.  
+  - Scores are stored securely in the Supabase database.  
 
-## Learn More
+### Usage
+1. Sign up or log in to start playing.  
+2. Click the "Start" button to begin the game.  
+3. Catch the moving ball to score points and progress through levels.  
+4. Scores will be automatically saved.
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Prototype
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Below is a simple sketch of the game interface:
 
-## Deploy on Vercel
+![Prototype Image](/design/prototype.png)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Future Improvements
+
+- Add a leaderboard to showcase top players.  
+- Enhance game visuals with animations and sounds.  
+- Introduce power-ups and bonus levels.  
+
+---
